@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pangpangpig_common" />
+        <module name="pangpangpig_config" />
+        <module name="pangpangpig_eureka" />
+        <module name="pangpangpig_manager" />
+        <module name="pangpangpig_user" />
+        <module name="pangpangpig_web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pangpangpig_common" options="-parameters" />
+      <module name="pangpangpig_config" options="-parameters" />
+      <module name="pangpangpig_eureka" options="-parameters" />
+      <module name="pangpangpig_manager" options="-parameters" />
+      <module name="pangpangpig_user" options="-parameters" />
+      <module name="pangpangpig_web" options="-parameters" />
+    </option>
+  </component>
+</project>
